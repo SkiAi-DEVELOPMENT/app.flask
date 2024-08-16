@@ -1,0 +1,19 @@
+
+
+
+{
+    "version": 2,
+    "builds": [
+      {
+        "src":"AMBITION.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "AMBITION.py"
+      }
+    ]
+  }
+  
